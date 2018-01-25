@@ -2,7 +2,7 @@
 
 ## Build the following:
 
-* Show validation error messages if validations fail the following tests
+* Show validation error messages if validations fail the following tests:
   * First Name - Required; No fewer than 2 characters; letters only
   * Last Name - Required; No fewer than 2 characters; letters only
   * Email - Required; Valid Format
