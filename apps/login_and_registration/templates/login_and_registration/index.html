@@ -11,8 +11,8 @@
       First Name: <input type="text" name="first_name">
       Last Name: <input type="text" name="last_name">
       Email: <input type="text" name="email">
-      Password: <input type="text" name="password">
-      Password Confirmation: <input type="text" name="password_confirmation">
+      Password: <input type="password" name="password">
+      Password Confirmation: <input type="password" name="password_confirmation">
       <input type="submit" name="submit" value="Register">
     </form>
 
@@ -20,7 +20,7 @@
     <form action="/success" method="post">
       {% csrf_token %}
       Email: <input type="text" name="email" required>
-      Password: <input type="text" name="password" required>
+      Password: <input type="password" name="password" required>
       <input type="submit" name="submit" value="Login">
     </form>
 
